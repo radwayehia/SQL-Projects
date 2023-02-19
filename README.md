@@ -94,7 +94,7 @@ b.	 And the male dependence that depends on Male Employee.
     on D.Essn = E.Superssn
     WHERE D.Essn IS NULL)
 
-15.	For each department-- if its average salary is less than the average salary of all employees-- display its number, name and number of its employees.
+15.	For each department-- if its average salary is less than the average salary of all employees- display its number, name and number of its employees.
 
     SELECT Departments.Dname, Departments.Dnum, COUNT(E.SSN) AS Employee_Count 
     FROM Departments INNER JOIN Employee E
